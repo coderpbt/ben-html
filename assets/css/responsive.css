@@ -1,0 +1,124 @@
+
+@media all and (max-width: 1250px) {
+  .container {
+      max-width: 90%;
+  }
+  .orden-list-single-left h5 {
+      font-size: 15px;
+  }
+  .orden-list-single-right h5 {
+      font-size: 15px;
+  }
+  .pasos-seguir-grid-left {
+      -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media all and (max-width: 991px) {
+  h2 {
+      font-size: 30px;
+  }
+  .header-content p {
+      font-size: 16px;
+      width: 66%;
+      float: right;
+  }
+  .details-orden-main-grid {
+      -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pasos-seguir-area {
+      padding: 30px 0px;
+  }
+  .pasos-seguir-inner-content ul li {
+      font-size: 14px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h2 {
+      font-size: 20px;
+  }
+  .header-content p {
+      font-size: 14px;
+      width: 68%;
+  }
+  .logo > a > img {
+      max-width: 180px;
+  }
+  .header-parent {
+      padding-bottom: 20px;
+  }
+  .pasos-seguir-main-grid {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  }
+}
+
+@media all and (max-width: 575px) {
+  h2 {
+      font-size: 18px;
+  }
+  .header-content p {
+      width: 61%;
+  }
+  h3 {
+      font-size: 20px;
+  }
+  .details-orden-left {
+      -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .details-orden-list-single {
+      padding: 12px 10px;
+  }
+  .orden-list-single-left h5 {
+      font-size: 13px;
+  }
+  .orden-list-single-right h5 {
+      font-size: 13px;
+  }
+  section.pasos-seguir-area h2 {
+      font-size: 20px;
+  }
+  .pasos-seguir-inner-content h4 {
+      font-size: 16px;
+  }
+  .pasos-seguir-inner-content h6 {
+      font-size: 16px;
+  }
+  .pasos-seguir-inner-single {
+      height: 100px;
+  }
+  .pasos-btn button {
+      font-size: 14px;
+      width: 100%;
+  }
+  .header-parent {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+  }
+  .header-content p {
+      width: 100%;
+      text-align: center;
+  }
+  .header-content h2 {
+      text-align: center;
+  }
+  .header-content {
+      margin-top: 15px;
+  }
+  section.instrucciones-pago-area {
+      padding-top: 30px;
+  }
+}
+
+@media all and (max-width: 413px) {
+  .pasos-btn button {
+      font-size: 12px;
+  }
+}
